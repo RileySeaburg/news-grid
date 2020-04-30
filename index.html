@@ -1,14 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Staatliches&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" media="screen and (max-width:786px)" href="mobile.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="mobile.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <title>News Grid | CSS Grid Template</title>
 </head>
+
 <body>
-    
+    <nav id="main-nav">
+        <div class="container">
+            <img src="images/logo.png" alt="News Grid" class="logo">
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <i class="fab fa-twitter fa-2x"></i>
+                </a>
+                <a href="https://youtube.com" target="_blank">
+                    <i class="fab fa-youtube fa-2x"></i>
+                </a>
+            </div>
+            <ul>
+                <li><a href="index.html" class="current">Home</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Showcase -->
+    <header id="showcase">
+        <div class="container">
+            <div class="showcase-container">
+                <div class="showcase-content">
+                    <div class="category category-sports">Sports</div>
+                    <h1>Some Sports Article</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo ipsa debitis ullam, laborum optio
+                        ad doloribus delectus error a. Ducimus, sed dolore beatae eos, accusamus delectus amet nulla
+                        perferendis totam voluptatum, quam autem corrupti atque?</p>
+                    <a href="article.html" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Home Articles -->
+    <section id="home-articles" class="py-2">
+        <div class="container">
+            <h2>Editor's Picks</h2>
+            <div class="articles-container">
+                <article class="card">
+                    <img src="images/articles/ent1.jpg" alt="cool pic">
+                    <div>
+                        <div class="category category-ent">Entertainment</div>
+                        <h3><a href="article.html">Lorem ipsum dolor sit.</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quidem magni
+                            deleniti nihil dolorem nobis deserunt iste amet voluptatum!</p>
+                    </div>
+                </article>
+                <article class="card bg-dark">
+                    <div class="category category-sports">Sports</div>
+                    <h3><a href="article.html">Lorem ipsum dolor sit.</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quidem magni
+                        deleniti nihil dolorem nobis deserunt iste amet voluptatum!</p>
+                </article>
+                <article class="card">
+                    <img src="images/articles/tech1.jpg" alt="cool pic">
+                    <div class="category category-tech">Technology</div>
+                    <h3><a href="article.html">Lorem ipsum dolor sit.</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quidem magni
+                        deleniti nihil dolorem nobis deserunt iste amet voluptatum!</p>
+                </article>
+                <article class="card">
+                    <div class="category category-sports">Sports</div>
+                    <h3><a href="article.html">Lorem ipsum dolor sit.</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quidem magni
+                        deleniti nihil dolorem nobis deserunt iste amet voluptatum!</p>
+                    <img src="images/articles/sports1.jpg" alt="cool pic">
+                </article>
+                <article class="card">
+                    <img src="images/articles/tech2.jpg" alt="cool pic">
+                    <div class="category category-tech">Technology</div>
+                    <h3><a href="article.html">Lorem ipsum dolor sit.</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quidem magni
+                        deleniti nihil dolorem nobis deserunt iste amet voluptatum!</p>
+                </article>
+                <article class="card bg-primary">
+                    <div class="category category-sports">Sports</div>
+                    <h3><a href="article.html">Lorem ipsum dolor sit.</a></h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quidem magni
+                        deleniti nihil dolorem nobis deserunt iste amet voluptatum!</p>
+                </article>
+                <article class="card">
+                    <div>
+                        <div class="category category-ent">Entertainment</div>
+                        <h3><a href="article.html">Lorem ipsum dolor sit.</a></h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam necessitatibus quidem magni
+                            deleniti nihil dolorem nobis deserunt iste amet voluptatum!</p>
+                    </div>
+                    <img src="images/articles/ent2.jpg" alt="cool pic">
+                </article>
+            </div>
+        </div>
+
+    </section>
+
+    <script src="https://kit.fontawesome.com/8d8944345c.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
